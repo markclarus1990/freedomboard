@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/freedomboard/", // This sets the base path for all assets and routing
+  base: "/freedomboard/", // This ensures the correct base path for GitHub Pages
 });
