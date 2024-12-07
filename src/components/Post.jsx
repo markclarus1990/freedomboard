@@ -1,5 +1,3 @@
-import { useState } from "react";
-import "./Post.css";
 import { useForm } from "react-hook-form";
 import { createPost } from "../services/Blogs";
 import { useMutation, useQueryClient } from "@tanstack/react-query";

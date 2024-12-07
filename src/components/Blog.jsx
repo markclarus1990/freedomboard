@@ -4,8 +4,6 @@ import { editPost, getBlogs } from "../services/Blogs";
 import { deleteBlog } from "../services/Blogs";
 import { getMunicipal, getProvinces, getBrgy } from "../services/locations";
 
-import "./Blog.css";
-
 function Blog() {
   const { data, isLoading } = useQuery({
     queryKey: ["blog"],
